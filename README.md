@@ -21,3 +21,8 @@ To run the buildout use:
 And, to run it in **developer** mode:
 
 `bin/buildout -c bd_develop.cfg`
+
+### IMPORTANT! ###
+
+In order to run the buildout in **developer** mode, you'll need a key to access our git repositories, as it'll clone
+all the dependencies from NSI's server.

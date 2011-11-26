@@ -10,17 +10,17 @@ Download and install Plone 4.0.7 in **standalone** mode.
 
 `./install.sh standalone`
 
-Put `bd.cfg` and `bd_develop.cfg` inside your `zinstance` folder.
+Put `buildout.cfg` and `develop.cfg` inside your `zinstance` folder, overwriting the original ones.
 
 ## Running the buildout ##
 
 To run the buildout use:
 
-`bin/buildout -c bd.cfg`
+`bin/buildout`
 
 And, to run it in **developer** mode:
 
-`bin/buildout -c bd_develop.cfg`
+`bin/buildout -c develop.cfg`
 
 ### IMPORTANT! ###
 

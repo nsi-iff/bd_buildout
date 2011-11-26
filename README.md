@@ -2,6 +2,8 @@
 
 ## Install instructions ##
 
+I can only guarantee it'll work in **Debian 6 Lenny 64 bits**. If you're using another operational system, you're on your own.
+
 Install system dependencies:
 
 `[sudo] apt-get install build-essential python-setuptools python-dev zlib1g-dev libjpeg62-dev libfreetype6-dev liblcms1-dev libssl-dev libxslt1-dev`
